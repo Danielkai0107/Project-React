@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Project-React/static/css/main.8a4bad41.css",
-    "main.js": "/Project-React/static/js/main.7920dfad.js",
+    "main.js": "/Project-React/static/js/main.e0dece8b.js",
     "static/media/bgc-3.png": "/Project-React/static/media/bgc-3.e099f985062fbe20985a.png",
     "static/media/bgc-2.png": "/Project-React/static/media/bgc-2.d85f1c396aec3838ccd4.png",
     "static/media/fb-icon.svg": "/Project-React/static/media/fb-icon.e5206a4d6dddbaf2b252.svg",
@@ -50,10 +50,10 @@
     "static/media/up-icon.svg": "/Project-React/static/media/up-icon.e9e8a5a23fe50af5bf58.svg",
     "static/media/minus-icon.svg": "/Project-React/static/media/minus-icon.8d84da2ae4074801c596.svg",
     "main.8a4bad41.css.map": "/Project-React/static/css/main.8a4bad41.css.map",
-    "main.7920dfad.js.map": "/Project-React/static/js/main.7920dfad.js.map"
+    "main.e0dece8b.js.map": "/Project-React/static/js/main.e0dece8b.js.map"
   },
   "entrypoints": [
     "static/css/main.8a4bad41.css",
-    "static/js/main.7920dfad.js"
+    "static/js/main.e0dece8b.js"
   ]
 }
