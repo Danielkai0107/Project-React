@@ -32,17 +32,17 @@
       @include bg-contain;
     }
     .dec-left--1 {
-      background-image: url('../images/Productpage/dec/b-1-l.png');
+      background-image: url('../../public/images/Productpage/dec/b-1-l.png');
     }
     .dec-left--2 {
-      background-image: url('../images/Productpage/dec/b-2-l.png');
+      background-image: url('../../public/images/Productpage/dec/b-2-l.png');
     }
     .dec-left--3 {
-      background-image: url('../images/Productpage/dec/b-3-l.png');
+      background-image: url('../../public/images/Productpage/dec/b-3-l.png');
     }
     .dec-left--4 {
       bottom: 5%;
-      background-image: url('../images/Productpage/dec/b-4-l.png');
+      background-image: url('../../public/images/Productpage/dec/b-4-l.png');
     }
     .dec-right {
       @include absolute-rb(0%, 0%);
@@ -52,17 +52,17 @@
       @include bg-contain;
     }
     .dec-right--1 {
-      background-image: url('../images/Productpage/dec/b-1-r.png');
+      background-image: url('../../public/images/Productpage/dec/b-1-r.png');
     }
     .dec-right--2 {
-      background-image: url('../images/Productpage/dec/b-2-r.png');
+      background-image: url('../../public/images/Productpage/dec/b-2-r.png');
     }
     .dec-right--3 {
-      background-image: url('../images/Productpage/dec/b-3-r.png');
+      background-image: url('../../public/images/Productpage/dec/b-3-r.png');
     }
     .dec-right--4 {
       bottom: 5%;
-      background-image: url('../images/Productpage/dec/b-4-r.png');
+      background-image: url('../../public/images/Productpage/dec/b-4-r.png');
     }
     &--bgc1 {
       background-color: #e2e2e2;
@@ -154,10 +154,10 @@
           @include bg-cover;
         }
         .blue-bgc {
-          background-image: url(/images/Productpage/blue-bgc.png);
+          background-image: url('../../public/images/Productpage/blue-bgc.png');
         }
         .yellow-bgc {
-          background-image: url(/images/Productpage/yellow-bgc.png);
+          background-image: url('../../public/images/Productpage/yellow-bgc.png');
         }
       }
     }

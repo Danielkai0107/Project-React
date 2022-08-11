@@ -20,7 +20,7 @@
         @include size(3.5em, 3.5em);
         margin-right: 2em;
         @include bg-contain;
-        background-image: url('../images/footer/celebrate-icon.png');
+        background-image: url('../../public/images/footer/celebrate-icon.png');
       }
       ul {
         li {
@@ -91,14 +91,14 @@
             @include bg-contain;
             @include size(5em, 5em);
             &:nth-child(1) {
-              background-image: url('../images/footer/facebook.svg');
+              background-image: url('../../public/images/footer/facebook.svg');
             }
             &:nth-child(2) {
               margin: 0 2em;
-              background-image: url('../images/footer/Instagram.png');
+              background-image: url('../../public/images/footer/Instagram.png');
             }
             &:nth-child(3) {
-              background-image: url('../images/footer/line.png');
+              background-image: url('../../public/images/footer/line.png');
             }
           }
         }

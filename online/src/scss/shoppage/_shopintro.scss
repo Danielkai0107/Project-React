@@ -18,7 +18,7 @@
           @include size(1.3em, 1.3em);
           margin: 0 0.1em;
           @include bg-contain;
-          background-image: url('../../images/Shoppage/Info/bread-icon.svg');
+          background-image: url('../../../public/images/Shoppage/Info/bread-icon.svg');
         }
       }
     }
@@ -93,7 +93,7 @@
           span {
             @include size(1.3em, 1.3em);
             @include bg-contain;
-            background-image: url(../../images/Shoppage/Info/star-icon.svg);
+            background-image: url('../../../public/images/Shoppage/Info/star-icon.svg');
             &:last-child {
               margin-right: 0.3em;
             }
@@ -129,7 +129,7 @@
           span {
             @include size(1em, 1em);
             @include bg-contain;
-            background-image: url(../../images/Shoppage/Info/star-icon.svg);
+            background-image: url('../../../public/images/Shoppage/Info/star-icon.svg');
           }
           p {
             color: #888;

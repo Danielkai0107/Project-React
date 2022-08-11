@@ -18,7 +18,7 @@
       width: 7em;
       height: 5em;
       @include bg-contain;
-      background-image: url('../images/navbar/icon/logo.svg');
+      background-image: url('../../public/images/navbar/icon/logo.svg');
     }
     &__list {
       @include flex-start(center, row);
@@ -73,19 +73,19 @@
               }
               .img1 {
                 @include absolute-lt(100%, 0%);
-                background-image: url('../images/navbar/brand/brand-1.png');
+                background-image: url('../../public/images/navbar/brand/brand-1.png');
               }
               .img2 {
                 @include absolute-lt(100%, -3em);
-                background-image: url('../images/navbar/brand/brand-2.png');
+                background-image: url('../../public/images/navbar/brand/brand-2.png');
               }
               .img3 {
                 @include absolute-lt(100%, -6em);
-                background-image: url('../images/navbar/brand/brand-3.png');
+                background-image: url('../../public/images/navbar/brand/brand-3.png');
               }
               .img4 {
                 @include absolute-lt(100%, -9em);
-                background-image: url('../images/navbar/brand/brand-4.png');
+                background-image: url('../../public/images/navbar/brand/brand-4.png');
               }
               &:hover {
                 background-color: $theme-white;
@@ -133,7 +133,7 @@
           transform: translateY(-50%);
           @include size(1.3em, 1.3em);
           @include bg-contain;
-          background-image: url('../images/navbar/icon/search.svg');
+          background-image: url('../../public/images/navbar/icon/search.svg');
         }
       }
     }
@@ -157,7 +157,7 @@
           @include size(1.7em, 1.7em);
           @include bg-cover;
           cursor: pointer;
-          background-image: url('../images/navbar/icon/heart.svg');
+          background-image: url('../../public/images/navbar/icon/heart.svg');
           &:active {
             transform: scale(0.9);
           }
@@ -165,12 +165,12 @@
       }
       &:nth-child(2) {
         a {
-          background-image: url('../images/navbar/icon/shop.svg');
+          background-image: url('../../public/images/navbar/icon/shop.svg');
         }
       }
       &:nth-child(3) {
         a {
-          background-image: url('../images/navbar/icon/login.svg');
+          background-image: url('../../public/images/navbar/icon/login.svg');
         }
       }
     }
@@ -180,7 +180,7 @@
         @include size(1.7em, 1.7em);
         @include bg-cover;
         cursor: pointer;
-        background-image: url('../images/navbar/icon/buger.svg');
+        background-image: url('../../public/images/navbar/icon/buger.svg');
         &:active {
           transform: scale(0.8);
         }

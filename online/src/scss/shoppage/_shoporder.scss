@@ -54,7 +54,7 @@
               @include after('', 1.2em, 1.2em) {
                 @include absolute-center;
                 @include bg-contain;
-                background-image: url('../../images/Shoppage/Oder/minus-icon.svg');
+                background-image: url('../../../public/images/Shoppage/Oder/minus-icon.svg');
               }
               &:active {
                 transform: scale(0.9);
@@ -72,7 +72,7 @@
               @include after('', 1.2em, 1.2em) {
                 @include absolute-center;
                 @include bg-contain;
-                background-image: url('../../images/Shoppage/Oder/plus-icon.svg');
+                background-image: url('../../../public/images/Shoppage/Oder/plus-icon.svg');
               }
               &:active {
                 transform: scale(0.9);
@@ -97,7 +97,7 @@
           cursor: pointer;
 
           &:nth-child(2) {
-            background-image: url('../../images/Shoppage/Oder/ring-icon.svg');
+            background-image: url('../../../public/images/Shoppage/Oder/ring-icon.svg');
           }
         }
         button {
@@ -136,7 +136,7 @@
               @include absolute-lt(105%, 50%);
               transform: translate(0%, -50%);
               @include bg-contain;
-              background-image: url('../../images/Shoppage/Oder/herf-icon.svg');
+              background-image: url('../../../public/images/Shoppage/Oder/herf-icon.svg');
             }
           }
         }
@@ -183,9 +183,9 @@
 }
 
 .heart {
-  background-image: url('../../images/Shoppage/Oder/heart-icon.svg');
+  background-image: url('../../../public/images/Shoppage/Oder/heart-icon.svg');
 }
 
 .red-heart {
-  background-image: url('../../images/Shoppage/Oder/red-heart.svg');
+  background-image: url('../../../public/images/Shoppage/Oder/red-heart.svg');
 }

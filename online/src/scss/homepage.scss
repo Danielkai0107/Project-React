@@ -36,7 +36,7 @@
           @include size(2em, 2em);
           margin-left: 1em;
           @include bg-contain;
-          background-image: url('/images/header/orange-right.svg');
+          background-image: url('../../public/images/header/orange-right.svg');
         }
       }
       figure {
@@ -65,7 +65,7 @@
     width: 100%;
     @include bg-cover;
     background-position: bottom;
-    background-image: url('/images/Homepage/art1/bgc-1.svg');
+    background-image: url('../../public/images/Homepage/art1/bgc-1.svg');
     &--wave {
       width: 100%;
       @include img-w(100%, contain);
@@ -120,7 +120,7 @@
                   display: block;
                   @include size(1.8em, 1.8em);
                   @include bg-contain;
-                  background-image: url('/images/Homepage/art1/plus.svg');
+                  background-image: url('../../public/images/Homepage/art1/plus.svg');
                   cursor: pointer;
                   &:active {
                     transform: rotate(15deg);
@@ -216,7 +216,7 @@
               @include size(2em, 2em);
               margin-left: 0.5em;
               @include bg-contain;
-              background-image: url('/images/Homepage/art1/white-right.svg');
+              background-image: url('../../public/images/Homepage/art1/white-right.svg');
             }
             &:active {
               transform: scale(0.9);
@@ -232,7 +232,7 @@
   .art2 {
     width: 100%;
     @include bg-cover;
-    background-image: url('/images/Homepage/art2/bgc-2.png');
+    background-image: url('../../public/images/Homepage/art2/bgc-2.png');
     &--wave {
       @include img-w(100%, contain);
     }
@@ -265,7 +265,7 @@
             @include size(2em, 2em);
             margin-left: 0.5em;
             @include bg-contain;
-            background-image: url('/images/Homepage/art1/white-right.svg');
+            background-image: url('../../public/images/Homepage/art1/white-right.svg');
           }
           &:active {
             transform: scale(0.9);
@@ -296,7 +296,7 @@
     height: 100vh;
     @include bg-cover;
     background-position: bottom;
-    background-image: url('/images/Homepage/art3/bgc-3.png');
+    background-image: url('../../public/images/Homepage/art3/bgc-3.png');
     &--wave {
       @include absolute-rb(0%, 0%);
       width: 100%;

@@ -15,7 +15,7 @@
     @include absolute-rt(0.5em, 2em);
     @include size(1.3em, 1.3em);
     @include bg-contain;
-    background-image: url('../images/navbar/aside/delete-icon.svg');
+    background-image: url('../../public/images/navbar/aside/delete-icon.svg');
     cursor: pointer;
     &:active {
       transform: rotate(30deg);
@@ -29,7 +29,7 @@
       @include size(2em, 2em);
       @include bg-contain;
       margin-right: 0.5em;
-      background-image: url('../images/navbar/aside/search-icon.svg');
+      background-image: url('../../public/images/navbar/aside/search-icon.svg');
     }
     input {
       @include size(calc(100% - 5em), 2em);
@@ -45,7 +45,7 @@
     span {
       @include size(1.3em, 1.3em);
       @include bg-contain;
-      background-image: url('../images/navbar/aside/plus-icon.svg');
+      background-image: url('../../public/images/navbar/aside/plus-icon.svg');
       cursor: pointer;
     }
     h1,

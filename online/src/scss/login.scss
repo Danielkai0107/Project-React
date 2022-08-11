@@ -12,7 +12,7 @@ $theme-hv: calc(100vh - 3.8em);
     height: $theme-hv;
     background-color: $theme-white;
     @include bg-cover;
-    background-image: url('../images/Login/bgc.png');
+    background-image: url('../../public/images/Login/bgc.png');
     .login-img {
       @include absolute-lt(40%, 150%);
       transform: translate(-50%, -50%);
@@ -57,7 +57,7 @@ $theme-hv: calc(100vh - 3.8em);
           @include absolute-rb(3%, 5%);
           @include size(1.6em, 1.6em);
           @include bg-contain;
-          background-image: url('../images/Login/eye-icon.svg');
+          background-image: url('../../public/images/Login/eye-icon.svg');
         }
       }
       &__forget {
@@ -77,7 +77,7 @@ $theme-hv: calc(100vh - 3.8em);
             @include after('', 1.1em, 1.1em) {
               @include absolute-center;
               @include bg-contain;
-              background-image: url('../images/Login/check-icon.svg');
+              background-image: url('../../public/images/Login/check-icon.svg');
               opacity: 0;
             }
           }
@@ -132,13 +132,13 @@ $theme-hv: calc(100vh - 3.8em);
           &:nth-child(1) {
             a {
               @include size(3em, 3em);
-              background-image: url('../images/Login/fb-icon.svg');
+              background-image: url('../../public/images/Login/fb-icon.svg');
             }
           }
           &:nth-child(2) {
             a {
               @include size(2.4em, 2.4em);
-              background-image: url('../images/Login/google-icon.svg');
+              background-image: url('../../public/images/Login/google-icon.svg');
               margin-left: 2em;
             }
           }
@@ -204,7 +204,7 @@ $theme-hv: calc(100vh - 3.8em);
             transform: translateY(50%);
             @include size(1.6em, 1.6em);
             @include bg-contain;
-            background-image: url('../images/Login/eye-icon.svg');
+            background-image: url('../../public/images/Login/eye-icon.svg');
             opacity: 0.5;
           }
         }
@@ -247,13 +247,13 @@ $theme-hv: calc(100vh - 3.8em);
           &:nth-child(1) {
             a {
               @include size(3em, 3em);
-              background-image: url('../images/Login/fb-icon.svg');
+              background-image: url('../../public/images/Login/fb-icon.svg');
             }
           }
           &:nth-child(2) {
             a {
               @include size(2.4em, 2.4em);
-              background-image: url('../images/Login/google-icon.svg');
+              background-image: url('../../public/images/Login/google-icon.svg');
               margin-left: 2em;
             }
           }

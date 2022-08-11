@@ -62,7 +62,9 @@ function Navbar() {
               <Link to="/Project-React#SALE">優惠情報</Link>
             </li>
             <li>
-              <a href="http://127.0.0.1:5500/index.html">風格體驗</a>
+              <a href="https://danielkai0107.github.io/Scroll-animation/">
+                風格體驗
+              </a>
             </li>
             <li className="search">
               <input type="text" placeholder="Search" />

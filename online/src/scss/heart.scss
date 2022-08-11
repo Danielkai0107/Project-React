@@ -25,7 +25,7 @@
     height: 100%;
     @include bg-cover;
     overflow: hidden;
-    background-image: url('../images/navbar/heart/wave.png');
+    background-image: url('../../public/images/navbar/heart/wave.png');
     background-position: top left;
   }
   .close {
@@ -33,7 +33,7 @@
     @include absolute-rt(104%, 1.8em);
     @include size(2.7em, 2.7em);
     @include bg-cover;
-    background-image: url('../images/navbar/heart/close-icon.svg');
+    background-image: url('../../public/images/navbar/heart/close-icon.svg');
     cursor: pointer;
     &:active {
       transform: scale(0.9);
@@ -71,7 +71,7 @@
       .heart {
         @include size(2.2em, 2.2em);
         @include bg-contain;
-        background-image: url('../images/navbar/heart/red-heart.svg');
+        background-image: url('../../public/images/navbar/heart/red-heart.svg');
         margin-left: 1.8em;
       }
     }
