@@ -1,4 +1,3 @@
-import Footer from './Components/Footer';
 import ShopIntro from './Components/ShopPage/ShopIntro';
 import ShopOder from './Components/ShopPage/ShopOder';
 

@@ -28,19 +28,27 @@ function Navbar() {
               <section className="brand">
                 <ul className="brand__list">
                   <li>
-                    <Link to="/productPage#OATLY">OATLY | 瑞典</Link>
+                    <Link to="/productPage#OATLY">
+                      OATLY | 瑞典
+                    </Link>
                     <span className="img1"></span>
                   </li>
                   <li>
-                    <Link to="/productPage#CALIFIA">CALIFIA FARMS | 美國</Link>
+                    <Link to="/productPage#CALIFIA">
+                      CALIFIA FARMS | 美國
+                    </Link>
                     <span className="img2"></span>
                   </li>
                   <li>
-                    <Link to="/productPage#MINOR">MINOR FIGURES | 英國</Link>
+                    <Link to="/productPage#MINOR">
+                      MINOR FIGURES | 英國
+                    </Link>
                     <span className="img3"></span>
                   </li>
                   <li>
-                    <Link to="/productPage#OATSIDE">OATSIDE | 新加坡</Link>
+                    <Link to="/productPage#OATSIDE">
+                      OATSIDE | 新加坡
+                    </Link>
                     <span className="img4"></span>
                   </li>
                 </ul>
@@ -53,13 +61,13 @@ function Navbar() {
               </section>
             </li>
             <li>
-              <Link to="/Project-React#HOT">熱銷排行</Link>
+              <Link to="/#HOT">熱銷排行</Link>
             </li>
             <li>
-              <Link to="/Project-React#NEW">最新商品</Link>
+              <Link to="/#NEW">最新商品</Link>
             </li>
             <li>
-              <Link to="/Project-React#SALE">優惠情報</Link>
+              <Link to="/#SALE">優惠情報</Link>
             </li>
             <li>
               <a href="https://danielkai0107.github.io/Scroll-animation/">

@@ -27,7 +27,7 @@ root.render(
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/Project-React" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/productPage" element={<ProductPage />} />
         <Route path="/shopPage" element={<ShopPage />} />
         <Route path="/login" element={<Login />} />
