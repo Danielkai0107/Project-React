@@ -4,10 +4,7 @@ const HotItem = () => {
   return (
     <li className="item">
       <figure className="item__img">
-        <img
-          src="./Project-React/images/Homepage/art1/hot/hot-product.png"
-          alt=""
-        />
+        <img src="./images/Homepage/art1/hot/hot-product.png" alt="" />
       </figure>
       <section className="item__content">
         <h1>Minor Figures 燕麥奶 (6入)</h1>
@@ -17,7 +14,7 @@ const HotItem = () => {
           </h2>
           <p>
             NT$1314
-            <Link to={'/shopPage'} onClick={handleTopBtn}>
+            <Link to={'/Project-React/shopPage'} onClick={handleTopBtn}>
               <span></span>
             </Link>
           </p>

@@ -7,7 +7,7 @@ const Cart = ({
   return (
     <li className="cart">
       <figure className="cart__img">
-        <img src="./Project-React/images/Shopcart/cart/product-1.png" alt="" />
+        <img src="./images/Shopcart/cart/product-1.png" alt="" />
       </figure>
       <section className="cart__title">
         <p>CALIFA FARMS</p>

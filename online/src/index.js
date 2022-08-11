@@ -27,11 +27,11 @@ root.render(
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/productPage" element={<ProductPage />} />
-        <Route path="/shopPage" element={<ShopPage />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/shopCart" element={<ShopCart />} />
+        <Route path="/Project-React/" element={<HomePage />} />
+        <Route path="/Project-React/productPage" element={<ProductPage />} />
+        <Route path="/Project-React/shopPage" element={<ShopPage />} />
+        <Route path="/Project-React/login" element={<Login />} />
+        <Route path="/Project-React/shopCart" element={<ShopCart />} />
         {/* <Route path="hot" element={<HotPage />} />
         <Route path="shop" element={<ShopPage />} />
         <Route path="about" element={<AboutPage />} /> */}

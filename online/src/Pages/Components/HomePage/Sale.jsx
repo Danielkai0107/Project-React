@@ -2,13 +2,13 @@ const Sale = () => {
   return (
     <article className="art2" id="SALE">
       <figure className="art2--wave">
-        <img src="./Project-React/images/Homepage/art2/wave-2.svg" alt="" />
+        <img src="./images/Homepage/art2/wave-2.svg" alt="" />
       </figure>
       <ul className="sale">
         <li className="sale__title">
           <figure className="sale__title__logo">
             <img
-              src="./Project-React/images/Homepage/art2/title-3.svg"
+              src="./images/Homepage/art2/title-3.svg"
               alt=""
             />
           </figure>
@@ -24,7 +24,7 @@ const Sale = () => {
           </p>
           <figure className="sale__imgBox__img">
             <img
-              src="./Project-React/images/Homepage/art2/sale-product.png"
+              src="./images/Homepage/art2/sale-product.png"
               alt=""
             />
           </figure>

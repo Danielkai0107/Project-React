@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <figure className="footer__wave">
-        <img src="./Project-React/images/footer/wave.svg" alt="" />
+        <img src="./images/footer/wave.svg" alt="" />
       </figure>
       <article className="join">
         <section className="join__title">
@@ -29,7 +29,7 @@ const Footer = () => {
 
       <article className="menu">
         <figure className="menu__logo">
-          <img src="./Project-React/images/footer/Logo.svg" alt="" />
+          <img src="./images/footer/Logo.svg" alt="" />
         </figure>
         <section className="menu__list">
           <ul>

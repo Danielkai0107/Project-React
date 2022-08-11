@@ -4,10 +4,7 @@ const NewItem = ({ item }) => {
   return (
     <li className="item">
       <figure className="title">
-        <img
-          src="./Project-React/images/Homepage/art1/new/new-title.png"
-          alt=""
-        />
+        <img src="./images/Homepage/art1/new/new-title.png" alt="" />
       </figure>
       <section className="item__productBox">
         <figure className="product__img">
@@ -19,7 +16,7 @@ const NewItem = ({ item }) => {
         <p>NT${item.price}</p>
       </section>
 
-      <Link to={'/shopPage'} onClick={handleTopBtn}>
+      <Link to={'/Project-React/shopPage'} onClick={handleTopBtn}>
         <button>
           SHOP NOW<span></span>
         </button>

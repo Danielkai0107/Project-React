@@ -9,10 +9,10 @@ const Login = () => {
     <main className="Login">
       <article className="Login__img">
         <figure className={fade ? 'login-img fadeIn' : 'login-img fadeOut'}>
-          <img src="./Project-React/images/login/pic-1.png" alt="" />
+          <img src="./images/login/pic-1.png" alt="" />
         </figure>
         <figure className={fade ? 'sign-img' : 'sign-img fadeUp'}>
-          <img src="./Project-React/images/login/pic-2.png" alt="" />
+          <img src="./images/login/pic-2.png" alt="" />
         </figure>
       </article>
       <article className="Login__content">

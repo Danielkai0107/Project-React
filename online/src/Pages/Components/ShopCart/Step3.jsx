@@ -12,10 +12,7 @@ const Step3 = ({ handleStepBtn, step, total }) => {
         <h1>訂購完成 !</h1>
         <p>訂單資訊已發送至您的信箱 !</p>
         <figure className="complete">
-          <img
-            src="./Project-React/images/Shopcart/steps/complete.png"
-            alt=""
-          />
+          <img src="./images/Shopcart/steps/complete.png" alt="" />
         </figure>
         <ul className="finalBox">
           <li>

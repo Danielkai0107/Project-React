@@ -19,7 +19,7 @@ function Navbar() {
         <section className="navbar__menu">
           <Link
             className="navbar__menu__logo"
-            to="/Project-React#HomePage"
+            to="/Project-React/"
             onClick={handleTopBtn}
           ></Link>
           <ul className="navbar__menu__list">
@@ -28,25 +28,25 @@ function Navbar() {
               <section className="brand">
                 <ul className="brand__list">
                   <li>
-                    <Link to="/productPage#OATLY">
+                    <Link to="/Project-React/productPage#OATLY">
                       OATLY | 瑞典
                     </Link>
                     <span className="img1"></span>
                   </li>
                   <li>
-                    <Link to="/productPage#CALIFIA">
+                    <Link to="/Project-React/productPage#CALIFIA">
                       CALIFIA FARMS | 美國
                     </Link>
                     <span className="img2"></span>
                   </li>
                   <li>
-                    <Link to="/productPage#MINOR">
+                    <Link to="/Project-React/productPage#MINOR">
                       MINOR FIGURES | 英國
                     </Link>
                     <span className="img3"></span>
                   </li>
                   <li>
-                    <Link to="/productPage#OATSIDE">
+                    <Link to="/Project-React/productPage#OATSIDE">
                       OATSIDE | 新加坡
                     </Link>
                     <span className="img4"></span>
@@ -61,13 +61,13 @@ function Navbar() {
               </section>
             </li>
             <li>
-              <Link to="/#HOT">熱銷排行</Link>
+              <Link to="/Project-React#HOT">熱銷排行</Link>
             </li>
             <li>
-              <Link to="/#NEW">最新商品</Link>
+              <Link to="/Project-React#NEW">最新商品</Link>
             </li>
             <li>
-              <Link to="/#SALE">優惠情報</Link>
+              <Link to="/Project-React#SALE">優惠情報</Link>
             </li>
             <li>
               <a href="https://danielkai0107.github.io/Scroll-animation/">
@@ -87,7 +87,7 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to="/shopcart"
+              to="/Project-React/shopcart"
               onClick={() => {
                 handleAsideBrand(0);
               }}
@@ -95,7 +95,7 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to="/login"
+              to="/Project-React/login"
               onClick={() => {
                 handleAsideBrand(0);
               }}

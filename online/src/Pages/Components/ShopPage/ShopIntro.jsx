@@ -6,47 +6,35 @@ const ShopIntro = () => {
       <section className="imgBox">
         <ul className="breadcrumbs">
           <li>
-            <Link to="/" onClick={handleTopBtn}>
+            <Link to="/Project-React/" onClick={handleTopBtn}>
               首頁
             </Link>
             <span></span>
           </li>
           <li>
-            <Link to="/productPage" onClick={handleTopBtn}>
+            <Link to="/Project-React/productPage" onClick={handleTopBtn}>
               Minor Figures
             </Link>
             <span></span>
           </li>
           <li>
-            <Link to="/shopPage" onClick={handleTopBtn}>
+            <Link to="/Project-React/shopPage" onClick={handleTopBtn}>
               燕麥奶
             </Link>
           </li>
         </ul>
         <figure>
-          <img
-            src="./Project-React/images/Shoppage/info/product-1.png"
-            alt=""
-          />
+          <img src="./images/Shoppage/info/product-1.png" alt="" />
         </figure>
         <ul className="productImages">
           <li>
-            <img
-              src="./Project-React/images/Shoppage/info/product-2.png"
-              alt=""
-            />
+            <img src="./images/Shoppage/info/product-2.png" alt="" />
           </li>
           <li>
-            <img
-              src="./Project-React/images/Shoppage/info/product-3.png"
-              alt=""
-            />
+            <img src="./images/Shoppage/info/product-3.png" alt="" />
           </li>
           <li>
-            <img
-              src="./Project-React/images/Shoppage/info/product-4.png"
-              alt=""
-            />
+            <img src="./images/Shoppage/info/product-4.png" alt="" />
           </li>
         </ul>
       </section>
@@ -63,22 +51,13 @@ const ShopIntro = () => {
           </li>
         </ul>
         <figure>
-          <img
-            src="./Project-React/images/Shoppage/info/product-2.png"
-            alt=""
-          />
-          <img src="./Project-React/images/Shoppage/info/intro-1.png" alt="" />
-          <img
-            src="./Project-React/images/Shoppage/info/product-3.png"
-            alt=""
-          />
-          <img
-            src="./Project-React/images/Shoppage/info/product-4.png"
-            alt=""
-          />
+          <img src="./images/Shoppage/info/product-2.png" alt="" />
+          <img src="./images/Shoppage/info/intro-1.png" alt="" />
+          <img src="./images/Shoppage/info/product-3.png" alt="" />
+          <img src="./images/Shoppage/info/product-4.png" alt="" />
           <img
             id="productIngredients"
-            src="./Project-React/images/Shoppage/info/intro-2.png"
+            src="./images/Shoppage/info/intro-2.png"
             alt=""
           />
         </figure>
